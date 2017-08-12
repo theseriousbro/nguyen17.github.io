@@ -1,4 +1,28 @@
+body{
+    background-color: #fff;
+}
 .wrapper{
     max-width: 60%;
     margin: 0 auto;
+}
+.wrapper h1{
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+ul li a{
+    color: blue;
+}
+@media only screen and (max-width: 765px){
+    ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+ul
 }
