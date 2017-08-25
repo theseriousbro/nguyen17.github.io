@@ -1,29 +1,15 @@
 body{
     background-color: #fff;
 }
-.wrapper{
-    max-width: 60%;
-    margin: 0 auto;
-}
-.wrapper h1{
+.head-content{
+    text-align: left;
 
-    text-align: center;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10%;
-}
-ul li a{
-    color: blue;
-}
-@media only screen and (max-width: 765px){
-    ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10%;
-}
-ul
+.head-content h1{
+    max-width: 25%;
+    max-height: 25%;
+    word-break: break-all;
+    font-weight: 300;
+    font-size: 4.9em;
+    font-family: 'Mukta Mahee';
 }
